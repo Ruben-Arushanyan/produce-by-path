@@ -87,4 +87,4 @@ console.log( +instance.I.love.you )
 <hr/>
 
 ## License
-[MIT](https://github.com/exit-success/produce-by-path/blob/master/LICENSE)
+[MIT](https://github.com/ruben-arushanyan/produce-by-path/blob/master/LICENSE)
