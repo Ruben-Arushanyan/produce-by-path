@@ -39,7 +39,7 @@ const instance = new ProduceByPath({
 console.log( instance.I.love.you("arg1", "arg2") )  
 //      {
 //          path: ["I", "love", "you"],
-//          args: ["arg1", "arg2'"]
+//          args: ["arg1", "arg2"]
 //      } 
 
 
@@ -52,8 +52,6 @@ console.log( String(instance.I.love.you) )
 console.log( instance.I.love.you + '')
 //      I--love--you
 
-console.log( +instance.I.love.you )
-//      I--love--you
 ```
 
 <hr/>
@@ -67,12 +65,12 @@ console.log( +instance.I.love.you )
 - **`handlers`** \<Object> defines which operations will be intercepted and \
  how to redefine intercepted operations.  Can have the following fields:
     - **`call`** \<Function> defines `call` handler, takes the following arguments:
-        - **`path`** \<String[]> Array of string properties on \
+        - **`path`** \<String[ ]> Array of string properties on \
         which it was applied the call operation
         - **`args`** \<Array> Array of arguments passed with the call operation.
     - **`toPrimitive`** \<Function> defines `toPrimitive` handler, \
      takes the following arguments:
-        - **`path`** \<String[]> Array of string properties on \
+        - **`path`** \<String[ ]> Array of string properties on \
         which it was applied the toPrimitive operation
         - **`hint`** \<String> can have the following values: \
         `"number"`, `"string"`, `"default"` see details: [toPrimitive](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Symbol/toPrimitive)

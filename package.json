@@ -1,17 +1,24 @@
 {
   "name": "produce-by-path",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "\"Produce By Path\" is a design pattern, which use to dynamically produce values by using the path to which it is applied. This package helps us easily creates and defines producer instances.",
   "license": "MIT",
   "homepage": "https://github.com/ruben-arushanyan/produce-by-path",
-  "repository": "https://github.com/ruben-arushanyan/produce-by-path",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/ruben-arushanyan/produce-by-path"
+  },
   "bugs": "https://github.com/ruben-arushanyan/produce-by-path/issues",
   "keywords": [
     "produce-by-path",
     "produce-by-path-pattern",
+    "javascript",
     "design-pattern",
-    "es6-proxy"
-  ],
+    "proxy",
+    "es6-proxy",
+    "nested-proxy",
+    "deep-proxy"
+  ,
   "author": "Ruben Arushanyan <ruben.arushanyan24@gmail.com> (https://github.com/ruben-arushanyan)",
   "main": "src/index.js",
   "scripts": {
