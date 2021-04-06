@@ -18,7 +18,7 @@
     "es6-proxy",
     "nested-proxy",
     "deep-proxy"
-  ,
+  ],
   "author": "Ruben Arushanyan <ruben.arushanyan24@gmail.com> (https://github.com/ruben-arushanyan)",
   "main": "src/index.js",
   "scripts": {
