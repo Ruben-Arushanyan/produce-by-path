@@ -1,7 +1,7 @@
 # Produce By Path
 
 ## Description
-**`Produce By Path`** is a *design pattern* *(for the first time, it was defined as a *design pattern* by [Ruben Arushanyan](https://github.com/ruben-arushanyan "Ruben Arushanyan") )*, which use to dynamically produce values by using the path to which it is applied. This package helps us easily creates and defines *producer* instances.
+**`Produce By Path`** is a *design pattern* *(for the first time, it was defined as a *design pattern* by [Ruben Arushanyan](https://github.com/ruben-arushanyan "Ruben Arushanyan") )*, which is used to dynamically produce values by using the path to which it is applied. This package helps us easily create and define producer instances.
 
 <hr>
 
@@ -62,18 +62,13 @@ console.log( instance.I.love.you + '')
 ### **`new ProduceByPath(handlers)`**
 <br/>
 
-- **`handlers`** \<Object> defines which operations will be intercepted and \
- how to redefine intercepted operations.  Can have the following fields:
+- **`handlers`** \<Object> defines which operations will be intercepted and how to redefine intercepted operations. It can have the following fields:
     - **`call`** \<Function> defines `call` handler, takes the following arguments:
-        - **`path`** \<String[ ]> Array of string properties on \
-        which it was applied the call operation
-        - **`args`** \<Array> Array of arguments passed with the call operation.
-    - **`toPrimitive`** \<Function> defines `toPrimitive` handler, \
-     takes the following arguments:
-        - **`path`** \<String[ ]> Array of string properties on \
-        which it was applied the toPrimitive operation
-        - **`hint`** \<String> can have the following values: \
-        `"number"`, `"string"`, `"default"` see details: [toPrimitive](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Symbol/toPrimitive)
+        - **`path`** \<String[ ]> Array of string, which contains a sequence of those properties on which the call operation was applied.
+        - **`args`** \<Array> Array of arguments which was passed with the call operation.
+    - **`toPrimitive`** \<Function> defines `toPrimitive` handler, takes the following arguments:
+        - **`path`** \<String[ ]> Array of string, which contains a sequence of those properties on which the toPrimitive operation was applied.
+        - **`hint`** \<String> can have the following values: `"number"`, `"string"`, `"default"` see details: [toPrimitive](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Symbol/toPrimitive)
 
 
 <hr/>
