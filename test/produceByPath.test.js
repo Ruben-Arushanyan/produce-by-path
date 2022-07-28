@@ -6,7 +6,7 @@
 * 
 */
 
-const ProduceByPath = require('../src/index.js')
+const ProduceByPath = require('../.packed')
 
 /* producer instances */
 const instance1 = new ProduceByPath({

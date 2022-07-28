@@ -1,16 +1,13 @@
 # Produce By Path
 
 ## Description
-**`Produce By Path`** is a *design pattern* *(for the first time, it was defined as a *design pattern* by [Ruben Arushanyan](https://github.com/ruben-arushanyan "Ruben Arushanyan") )*, which is used to dynamically produce values by using the path to which it is applied. This package helps us easily create and define producer instances.
-
-<hr>
+**`Produce By Path`** is a *design pattern*, which is used to dynamically produce values by using the path to which it is applied. This package helps us easily create and define producer instances.
 
 ## Installation
 
 ```bash
 npm install produce-by-path
 ```
-<hr/>
 
 ## Usage
 ```javascript
@@ -54,7 +51,6 @@ console.log( instance.I.love.you + '')
 
 ```
 
-<hr/>
 
 ## API
 
@@ -71,13 +67,10 @@ console.log( instance.I.love.you + '')
         - **`hint`** \<String> can have the following values: `"number"`, `"string"`, `"default"` see details: [toPrimitive](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Symbol/toPrimitive)
 
 
-<hr/>
 
-## Maintainers
+## Authors
 
 - [Ruben Arushanyan](https://github.com/ruben-arushanyan)
 
-<hr/>
-
 ## License
-[MIT](https://github.com/ruben-arushanyan/produce-by-path/blob/master/LICENSE)
+[MIT License](https://github.com/ruben-arushanyan/produce-by-path/blob/master/LICENSE)
