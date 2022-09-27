@@ -1,0 +1,5 @@
+blank_issues_enabled: true
+contact_links:
+  - name: Ask a question
+    url: https://github.com/ruben-arushanyan/produce-by-path/discussions
+    about: For questions and answers, see the Discussions section.
